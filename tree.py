@@ -101,12 +101,7 @@ class huffman(object):
         
         
 if __name__ == "__main__":
-    x = tree()
-    x.insert(50)
-    for i in range(0,100): 
-        x.insert(random.randint(0,100))
-    #x.lcr_print()
-
+    
     h = huffman()
     h.insert([['a',1],['b',1],['c',1],['d',2],['e',6],['f',10],['g',15]])
     #h.lcr_print()
